@@ -1,10 +1,10 @@
-# DLoc code
+# DLoc Codes
 
 This repository contains the PyTorch implementation of DLoc from [Deep Learning based Wireless Localization for Indoor Navigation](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894). 
 
 The datasets (features) required to run these codes can be downloaded from the [WILD](https://wcsng.ucsd.edu/wild/) website. You can also download the raw-channels from the [WILD](https://wcsng.ucsd.edu/wild/) webpage to run your own algorithms on them.
 
-## DLoc Codes
+## Requirements
 
 To install requirements:
 
