@@ -117,10 +117,10 @@ elif "data" in opt_exp and opt_exp.data == "data_segment":
 Loading Training and Evaluation Data into their respective Dataloaders
 '''
 # load traning data
-B_train,A_train,labels_train = load_data(trainpath[0], 0, 0, 0, 1)
+B_train,A_train,labels_train = load_data(trainpath[0])
 
 for i in range(len(trainpath)-1):
-    f,f1,l = load_data(trainpath[i+1], 0, 0, 0, 1)
+    f,f1,l = load_data(trainpath[i+1])
     B_train = torch.cat((B_train, f), 0)
     A_train = torch.cat((A_train, f1), 0)
     labels_train = torch.cat((labels_train, l), 0)
@@ -136,10 +136,10 @@ print(f"labels_train.shape: {labels_train.shape}")
 print('# training mini batch = %d' % len(train_loader))
 
 # load testing data
-B_test,A_test,labels_test = load_data(testpath[0], 0, 0, 0, 1)
+B_test,A_test,labels_test = load_data(testpath[0])
 
 for i in range(len(testpath)-1):
-    f,f1,l = load_data(testpath[i+1], 0, 0, 0, 1)
+    f,f1,l = load_data(testpath[i+1])
     B_test = torch.cat((B_test, f), 0)
     A_test = torch.cat((A_test, f1), 0)
     labels_test = torch.cat((labels_test, l), 0)
