@@ -50,7 +50,7 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw":
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env2":
     # Training and testing data loaded for the Final results For Env-2
     # for Generalization across scenarios (Table-1) train on 1/3/4 and test on 2
-    trainpath = ['./data/dataset_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset_jacobs_July28.mat',
                 './data/dataset_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset_fov_train_jacobs_July28_2.mat',
                 './data/dataset_train_jacobs_Aug16_3.mat',
@@ -62,7 +62,7 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env2":
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env3":
     # Training and testing data loaded for the Final results For Env-2
     # for Generalization across scenarios (Table-1) train on 1/2/4 and test on 3
-    trainpath = ['./data/dataset_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset_jacobs_July28.mat',
                 './data/dataset_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset_fov_train_jacobs_July28_2.mat',
                 './data/dataset_train_jacobs_Aug16_1.mat',
@@ -73,7 +73,7 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env3":
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env4":
     # Training and testing data loaded for the Final results For Env-2
     # for Generalization across scenarios (Table-1) train on 1/2/3 and test on 4
-    trainpath = ['./data/dataset_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset_jacobs_July28.mat',
                 './data/dataset_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset_fov_train_jacobs_July28_2.mat',
                 './data/dataset_train_jacobs_Aug16_1.mat',
@@ -85,7 +85,7 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw_env4":
 
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw_40":
     # Training and testing data loaded for the Generalization results For Env-2 (The larger space) in the paper (Figure 13a) at 40MHz
-    trainpath = ['./data/dataset40_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset40_jacobs_July28.mat',
                 './data/dataset40_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset40_fov_train_jacobs_July28_2.mat']
     testpath = ['./data/dataset40_fov_test_jacobs_July28_2.mat',
@@ -94,7 +94,7 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw_40":
 
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw_20":
     # Training and testing data loaded for the Generalization results For Env-2 (The larger space) in the paper (Figure 13a) at 20MHz
-    trainpath = ['./data/dataset20_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset20_jacobs_July28.mat',
                 './data/dataset20_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset20_fov_train_jacobs_July28_2.mat']
     testpath = ['./data/dataset20_fov_test_jacobs_July28_2.mat',
