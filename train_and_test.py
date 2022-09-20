@@ -106,10 +106,10 @@ elif "data" in opt_exp and opt_exp.data == "rw_to_rw_20":
 elif "data" in opt_exp and opt_exp.data == "data_segment":
     # Training and testing data loaded for the Final results For Env-2 
     # for Disjoint Training and Testing(The larger space) in the paper (Figure 13b)
-    trainpath = ['./data/dataset_test_jacobs_July28.mat',
-                './data/dataset_test_jacobs_July28_2.mat']
-    testpath = ['./data/dataset_train_jacobs_July28.mat',
+    trainpath = ['./data/dataset_train_jacobs_July28.mat',
                 './data/dataset_train_jacobs_July28_2.mat']
+    testpath = ['./data/dataset_test_jacobs_July28.mat',
+                './data/dataset_test_jacobs_July28_2.mat']
     print('non-FOV to non-FOV experiments started')
 
 ######################################################################################################################
