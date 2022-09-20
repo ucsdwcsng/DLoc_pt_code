@@ -38,7 +38,7 @@ if "data" in opt_exp and opt_exp.data == "rw_to_rw_atk":
 #####################################Final Complex Space Results################################################
 elif "data" in opt_exp and opt_exp.data == "rw_to_rw":
     # Training and testing data loaded for the Final results For Env-2 (The larger space) in the paper (Figure 10b)
-    trainpath = ['./data/dataset_edit_jacobs_July28.mat',
+    trainpath = ['./data/dataset_jacobs_July28.mat',
                 './data/dataset_non_fov_train_jacobs_July28_2.mat',
                 './data/dataset_fov_train_jacobs_July28_2.mat']
     testpath = ['./data/dataset_fov_test_jacobs_July28_2.mat',
