@@ -27,4 +27,4 @@ The parameters and their descriptions can be found in the comments of the exampl
 
 To recreate the results from the [paper](https://dl.acm.org/doi/pdf/10.1145/3372224.3380894) refer to the [README](./params_storage/README.md) of the **params_storage** folder.
 
-### MATLAB codes to transform the raw CSI channels opesourced at [WILD](https://wcsng.ucsd.edu/MLoc) can be accessed at [CSI-to-Features](https://github.com/ucsdwcsng/CSI_to_DLocFeatures)
+### MATLAB codes to transform the raw CSI channels opesourced at [WILD](https://wcsng.ucsd.edu/WILD) can be accessed at [CSI-to-Features](https://github.com/ucsdwcsng/CSI_to_DLocFeatures)
