@@ -11,7 +11,7 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-
+#### Note: The requirements have been tested on Ubuntu 18.04 Docker Image with PyTorch version 1.4.0
 
 ## Training and Evlautaion
 
