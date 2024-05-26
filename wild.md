@@ -152,7 +152,7 @@ data_split_idx
 	
 </div>
 
-#### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/9HaCCGsTxqEP7FcU6). You can then go ahead and download datasets from the links above.
+#### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/6mvdGq9Nw69Tnhn99). You can then go ahead and download datasets from the links above.
 
 ---
 
