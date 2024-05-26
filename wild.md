@@ -1,11 +1,3 @@
----
-title: "WCSNG - Research"
-layout: gridlay
-excerpt: "WILD"
-sitemap: true
-permalink: /wild/
----
-
 # Wireless Indoor Localization Dataset (WILD)
 ```
 Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
@@ -39,27 +31,27 @@ Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
 <div class="col-sm-6 clearfix">
 
 <h4> 1. Complex High-multipath and NLOS environment (1500 sq. ft.) with 5 different setups in Jacobs Hall UCSD</h4>
-<a href="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs.png" width="100%" style="float: center" > </a>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs_default.png" width="50%" style="float: center" >
+<a href="/ref/jacobs.png"><img src="/ref/jacobs.png" width="100%" style="float: center" > </a>
+- <img src="/ref/jacobs_default.png" width="50%" style="float: center" >
 <p>**jacobs_Jul28**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on July 28, 2019.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs_default.png" width="50%" style="float: center" >
+- <img src="/ref/jacobs_default.png" width="50%" style="float: center" >
 <p>**jacobs_Jul28_2**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on July 28, 2019, one hour after **jacobs_Jul28**.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs_aug16_1.png" width="50%" style="float: center" >
+- <img src="/ref/jacobs_aug16_1.png" width="50%" style="float: center" >
 <p>**jacobs_Aug16_1**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs_aug16_3.png" width="50%" style="float: center" >
+- <img src="/ref/jacobs_aug16_3.png" width="50%" style="float: center" >
 <p>**jacobs_Aug16_3**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/jacobs_aug16_4_ref.png" width="50%" style="float: center" >
+- <img src="/ref/jacobs_aug16_4_ref.png" width="50%" style="float: center" >
 <p>**jacobs_Aug16_4_ref**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly with an added reflector. (*a huge aluminium plated board*)</p>
 </div>
 
 <div class="col-sm-6 clearfix">
 <h4> 2. Simple LOS based environment (500 sq. ft.) with 3 different setups in Atkison Hall UCSD </h4>
-<a href="{{ site.url }}{{ site.baseurl }}/images/respic/atkinson.png"><img src="{{ site.url }}{{ site.baseurl }}/images/respic/atkinson.png" width="95%" style="float: center" > </a>
-  - <img src="{{ site.url }}{{ site.baseurl }}/images/respic/atk_July22_1_ref.png" width="40%" style="float: center" >
+<a href="/ref/atkinson.png"><img src="/ref/atkinson.png" width="95%" style="float: center" > </a>
+  - <img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
   <p>**July16**: 8m X 5m setup with 3 APs in Atkinson hall ground floor for data collected on July 16, 2019.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/atk_July22_1_ref.png" width="40%" style="float: center" >
+- <img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
 <p>**July18**: 8m X 5m setup with 3 APs in Atkinson hall ground floor for data collected on July 18, 2019.</p>
-- <img src="{{ site.url }}{{ site.baseurl }}/images/respic/atk_July22_2_ref.png" width="40%" style="float: center" >
+- <img src="/ref/atk_July22_2_ref.png" width="40%" style="float: center" >
 <p>**July22_2_ref**: 8m X 5m setup with 3 APs and 2 additonal reflectors (*a huge aluminium plated board*) placed in Atkinson hall ground floor for data collected on July 22, 2019.</p>
 </div>
 </div>
@@ -168,5 +160,5 @@ data_split_idx
 
 - Ayyalasomayajula R, Arun A, Wu C, Sharma S, Sethi AR, Vasisht D, Bharadia D. Deep learning based wireless localization for indoor navigation. InProceedings of the 26th Annual International Conference on Mobile Computing and Networking 2020 Apr 16 (pp. 1-14).
 
-  [Bibtex]({{ site.url }}{{ site.baseurl }}/files/dloc_bib.md)
+  [Bibtex](/ref/dloc_bib.md)
   
