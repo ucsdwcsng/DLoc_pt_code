@@ -7,7 +7,7 @@ Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
 
 <div class="well">
  <center>
- <h4><A href="#documentation">Documentation</A>&emsp;&emsp;<A href="#downloads">Downloads</A>&emsp;&emsp;<a href="https://forms.gle/WWGymUFxhPWRc4zu7">LICENSE</a>&emsp;&emsp;<A href="#updates">Updates</A>&emsp;&emsp;<A href="#citation">CITATION</A></h4>
+ <h4><A href="#documentation">Documentation</A>&emsp;&emsp;<A href="#downloads">Downloads</A>&emsp;&emsp;<a href="https://forms.gle/WWGymUFxhPWRc4zu7">LICENSE</a>&emsp;&emsp;<A href="#updates">Updates</A>&emsp;&emsp;<A href="#citation">REFERENCE</A></h4>
  </center>
 </div>
 
@@ -17,7 +17,7 @@ Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
 <i><font color="gray">December, 2022</font></i>
 <p>2nd version of WILD dataset has been released through a <a href="https://www.kaggle.com/competitions/wildv2/data">Kaggle Competition</a>.</p>
 <i><font color="gray">June 20, 2020</font></i>
-<p>First release of the Location labelled WiFi CSI data and features data used in <a href="https://wcsng.ucsd.edu/dloc">DLoc</a>.</p>
+<p>First release of the Location labeled WiFi CSI data and features data used in <a href="https://wcsng.ucsd.edu/dloc">DLoc</a>.</p>
 <i><font color="gray">Jan, 2020</font></i>
 <p><a href="https://wcsng.ucsd.edu/dloc">DLoc</a> has been accepted in Mobicom 2020.</p>
 
@@ -32,33 +32,33 @@ Authors: Roshan Ayyalasomayajula, Aditya Arun, Chenfeng Wu, Dinesh Bharadia
 
 <h4> 1. Complex High-multipath and NLOS environment (1500 sq. ft.) with 5 different setups in Jacobs Hall UCSD</h4>
 <a href="/ref/jacobs.png"><img src="/ref/jacobs.png" width="100%" style="float: center" > </a>
-- <img src="/ref/jacobs_default.png" width="50%" style="float: center" >
-<p>**jacobs_Jul28**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on July 28, 2019.</p>
-- <img src="/ref/jacobs_default.png" width="50%" style="float: center" >
-<p>**jacobs_Jul28_2**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on July 28, 2019, one hour after **jacobs_Jul28**.</p>
-- <img src="/ref/jacobs_aug16_1.png" width="50%" style="float: center" >
-<p>**jacobs_Aug16_1**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly.</p>
-- <img src="/ref/jacobs_aug16_3.png" width="50%" style="float: center" >
-<p>**jacobs_Aug16_3**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly.</p>
-- <img src="/ref/jacobs_aug16_4_ref.png" width="50%" style="float: center" >
-<p>**jacobs_Aug16_4_ref**: 18m X 8m setup with 4 APs in Jacobs hall ground floor for data collected on August 16, 2019 with extra furniture placed randomly with an added reflector. (*a huge aluminium plated board*)</p>
+<img src="/ref/jacobs_default.png" width="50%" style="float: center" >
+<p>**jacobs_Jul28**: 18m X 8m setup with 4 APs in Jacobs Hall ground floor for data collected on July 28, 2019.</p>
+<img src="/ref/jacobs_default.png" width="50%" style="float: center" >
+<p>**jacobs_Jul28_2**: 18m X 8m setup with 4 APs in Jacobs Hall ground floor for data collected on July 28, 2019, one hour after **jacobs_Jul28**.</p>
+<img src="/ref/jacobs_aug16_1.png" width="50%" style="float: center" >
+<p>**jacobs_Aug16_1**: 18m X 8m setup with 4 APs in Jacobs Hall ground floor for data collected on August 16, 2019, with extra furniture placed randomly.</p>
+<img src="/ref/jacobs_aug16_3.png" width="50%" style="float: center" >
+<p>**jacobs_Aug16_3**: 18m X 8m setup with 4 APs in Jacobs Hall ground floor for data collected on August 16, 2019, with extra furniture placed randomly.</p>
+<img src="/ref/jacobs_aug16_4_ref.png" width="50%" style="float: center" >
+<p>**jacobs_Aug16_4_ref**: 18m X 8m setup with 4 APs in Jacobs Hall ground floor for data collected on August 16, 2019, with extra furniture placed randomly with an added reflector. (*a huge aluminum plated board*)</p>
 </div>
 
 <div class="col-sm-6 clearfix">
-<h4> 2. Simple LOS based environment (500 sq. ft.) with 3 different setups in Atkison Hall UCSD </h4>
+<h4> 2. Simple LOS-based environment (500 sq. ft.) with 3 different setups in Atkison Hall UCSD </h4>
 <a href="/ref/atkinson.png"><img src="/ref/atkinson.png" width="95%" style="float: center" > </a>
-  - <img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
-  <p>**July16**: 8m X 5m setup with 3 APs in Atkinson hall ground floor for data collected on July 16, 2019.</p>
-- <img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
-<p>**July18**: 8m X 5m setup with 3 APs in Atkinson hall ground floor for data collected on July 18, 2019.</p>
-- <img src="/ref/atk_July22_2_ref.png" width="40%" style="float: center" >
-<p>**July22_2_ref**: 8m X 5m setup with 3 APs and 2 additonal reflectors (*a huge aluminium plated board*) placed in Atkinson hall ground floor for data collected on July 22, 2019.</p>
+<img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
+<p>**July16**: 8m X 5m setup with 3 APs in Atkinson Hall ground floor for data collected on July 16, 2019.</p>
+<img src="/ref/atk_July22_1_ref.png" width="40%" style="float: center" >
+<p>**July18**: 8m X 5m setup with 3 APs in Atkinson Hall ground floor for data collected on July 18, 2019.</p>
+<img src="/ref/atk_July22_2_ref.png" width="40%" style="float: center" >
+<p>**July22_2_ref**: 8m X 5m setup with 3 APs and 2 additional reflectors (*a huge aluminum plated board*) placed in Atkinson Hall ground floor for data collected on July 22, 2019.</p>
 </div>
 </div>
 
 ---
 
-We provide both the CSI data for all the above setups and the post-prcessed features for running our DLoc network. **All the corresponding links can be found below.**
+We provide both the CSI data for all the above setups and the post-processed features for running our DLoc network. **All the corresponding links can be found below.**
 
 ### Channels
 
@@ -67,12 +67,12 @@ The CSI data is named as **channels_<setup_name_from_above>.mat**. These MATLAB 
 - **channels**: *[ n_datapoints x n_frequency x n_ant X n_ap ]* 4D complex channel matrix.
 - **RSSI**: *[ n_datapoints x n_ap ]* 2D recieved signal strenght matrix.
 - **labels**: *[ n_datapoints x 2 ]* 2D XY labels.
-- **opt**: various options specific for the data generated
+- **opt**: various options specific to the data generated
 	-*opt.freq* : *[n_frequencyx1]* 1D vector that describes the frequency of the subcarriers
 	-*opt.lambda*: *[n_frequencyx1]* 1D vector that describes the wavelength of the subcarriers
 	-*ant_sep*: antenna separation used on all of our APs
-- **ap**: *n_ap* cell matrix. Each element corresposning to *[ n_ant x 2 ]* XY locations of the n_ant on each AP.
-- **ap_aoa**: *[ n_ap x 1]* vectors that contains the rotation that needs to be added to the AoA measured at each AP (assumes that the AoA is measured about the normal to the AP's antenna array)
+- **ap**: *n_ap* cell matrix. Each element corresponds to *[ n_ant x 2 ]* XY locations of the n_ant on each AP.
+- **ap_aoa**: *[ n_ap x 1]* vectors that contain the rotation that needs to be added to the AoA measured at each AP (assumes that the AoA is measured about the normal to the AP's antenna array)
 - **d1**: The sampled x-axis of the space under consideration
 - **d2**: The sampled y-axis of the space under consideration
 
@@ -82,7 +82,7 @@ The 2D heatmap features data used in [DLoc](https://wcsng.ucsd.edu/dloc) is name
 
 - **features_with_offset**: *[ n_datapoints x n_ap x n_d1_points X n_d2_points ]* 4D feature matrix for n_ap **with offsets** in time
 - **features_without_offset**: *[ n_datapoints x n_ap x n_d1_points X n_d2_points ]* 4D feature matrix for n_ap **without offsets** in time
-- **labels_gaussian_2d**: *[ n_datapoints x n_d1_points X n_d2_points ]* 3D labels matrix that contisn the target images for the location network.
+- **labels_gaussian_2d**: *[ n_datapoints x n_d1_points X n_d2_points ]* 3D labels matrix that contains the target images for the location network.
 - **labels**: *[ n_datapoints x 2 ]* 2D XY labels.
 
 ---
@@ -152,13 +152,13 @@ data_split_idx
 	
 </div>
 
-#### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/9HaCCGsTxqEP7FcU6). You can then proceed to download datasets from the links above.
+#### All the dataset downloads are **PASSWORD** protected. To get the password, please read and agree to the [terms and conditions](https://forms.gle/9HaCCGsTxqEP7FcU6). You can then go ahead and download datasets from the links above.
 
 ---
 
 ## CITATION ##
 
-- Ayyalasomayajula R, Arun A, Wu C, Sharma S, Sethi AR, Vasisht D, Bharadia D. Deep learning based wireless localization for indoor navigation. InProceedings of the 26th Annual International Conference on Mobile Computing and Networking 2020 Apr 16 (pp. 1-14).
+- Ayyalasomayajula R, Arun A, Wu C, Sharma S, Sethi AR, Vasisht D, Bharadia D. Deep learning based wireless localization for indoor navigation. In Proceedings of the 26th Annual International Conference on Mobile Computing and Networking 2020 Apr 16 (pp. 1-14).
 
   [Bibtex](/ref/dloc_bib.md)
   
